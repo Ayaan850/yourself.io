@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Calcultor</title>
+
+ <!-- HTML -->
+
+
+ <!-- Custom Styles -->
+ <link rel="stylesheet" href="index.css">
+ <script src="/JS/cdn.js"></script>
+</head>
+
+<body>
+   <header class="text-gray-600 body-font">
+    <div class=" mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"><a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <div class="sksoxk"><span class="ml-3 text-xl">Yourself<b class="b">made by Ayaan</b></span></div>
+     </a>
+     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="/index.html">Home</a>
+      <a class="mr-5 hover:text-gray-900" href="/pages/games.html">Games</a>
+      <a class="mr-5 hover:text-gray-900" href="/pages/tools.html">Tools</a>
+      <a class="mr-5 hover:text-gray-900" href="/pages/code.html">Code</a>
+      <a class="mr-5 hover:text-gray-900" href="#">Chat</a>
+     </nav>
+     <button class="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0 text-white">sign up
+     </button>
+    </div>
+   </header>
+  <div class="title">
+    <h1>Calculator</h1>
+   </div>
+ <div class="output">
+  <input type="text" id="result" placeholder="0" class="input" readonly>
+ </div>
+ <div class="containers">
+  <div class="flex">
+   <button class="opt" value="+" onclick="dis('+')">+</button>
+   <button class="opt-eq" onclick="sol()">=</button>
+   <button class="opt-x" onclick="clr()">❌</button>
+  </div>
+  <div class="flex">
+   <button class="btn-" value="-" onclick="dis('-')">-</button>
+   <button class="btn" value="1" onclick="dis('1')">1</button>
+   <button class="btn" value="2" onclick="dis('2')">2</button>
+   <button class="btn" value="3" onclick="dis('3')">3</button>
+  </div>
+  <div class="flex">
+   <button class="btn-" value="÷" onclick="dis('/')">÷</button>
+   <button class="btn" value="4" onclick="dis('4')">4</button>
+   <button class="btn" value="5" onclick="dis('5')">5</button>
+   <button class="btn" value="6" onclick="dis('6')">6</button>
+  </div>
+  <div class="flex">
+   <button class="btn-" value="*" onclick="dis('*')">×</button>
+   <button class="btn" value="7" onclick="dis('7')">7</button>
+   <button class="btn" value="8" onclick="dis('8')">8</button>
+   <button class="btn" value="9" onclick="dis('9')">9</button>
+  </div>
+   <button class="btn-clr" value="0"
+   onclick="dis('0')">0</button>
+ </div>
+ <!-- Project -->
+ <script src="index.js"></script>
+</body>
+
+</html>
