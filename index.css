@@ -1,0 +1,136 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+}
+
+@keyframes myAnimation {
+ 0%{
+  color: black;
+  top: 0px;
+ }
+ 5%{
+  color: black;
+  left: 5px;
+ }
+10%{
+ color: black;
+ left: 15px;
+}
+ 25%{
+  color: black;
+  left: 100px;
+ }
+ 50%{
+  color: black;
+  left: 200px;
+ }
+ 75%{
+  color: black;
+  left: 300px;
+ }
+ 100%{
+  color: black;
+  left: 400px;
+ }
+}
+
+.title h1{
+ color: black;
+ font-size: 30px;
+}
+
+.containers{
+ width: 300px;
+ height: 300px;
+ background: #202672;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin: auto;
+}
+
+.input {
+ width: 300px;
+ border: solid black 5px;
+ height: 50px;
+ font-size: 25px;
+}
+
+.opt {
+ width: 70px;
+ height: 50px;
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ font-size: 25px;
+}
+
+.opt:hover {
+ background: linear-gradient("blue", "purple", "orange");
+}
+
+.opt-eq {
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ height: 50px;
+ font-size: 25px;
+ width: 100px;
+ margin: 0;
+}
+
+.opt-x {
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ height: 50px;
+ font-size: 25px;
+ width: 50px;
+ margin: 0;
+}
+
+.btn- {
+ width: 70px;
+ height: 50px;
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ font-size: 25px;
+}
+
+.btn-clr {
+ width: 90px;
+ height: 50px;
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ font-size: 25px;
+}
+
+.btn {
+ border: solid white;
+ background-color: #202672;
+ color: white;
+ height: 50px;
+ width: 50px;
+ font-size: 25px;
+}
+.flex{
+ justify-content: center;
+ display: flex;
+}
+
+.logo p {
+   font-size: 35px;
+  }
+
+  .b {
+   font-size: 10px;
+   color: #C72F2F;
+  }
